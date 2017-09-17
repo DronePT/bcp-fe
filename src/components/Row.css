@@ -1,0 +1,59 @@
+div.row {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin: 0 32px;
+  padding: 12px 16px;
+
+  box-shadow: 0 0 16px -8px rgba(0, 0, 0, .16),
+              0 4px 8px 0px rgba(0, 0, 0, .32);
+
+  transition: margin .25s ease,
+              border-radius .15s ease;
+
+  will-change: margin, border-radius;
+
+  font-size: 14px;
+}
+
+div.row.not-matched {
+  opacity: .24;
+  box-shadow: 0 0 16px -8px rgba(0, 0, 0, .16),
+              0 4px 8px 0px rgba(0, 0, 0, .12);
+}
+
+div.row.matched {
+  opacity: 1;
+  margin: 8px 16px;
+  border-radius: 8px;
+}
+
+div.row:not(.not-matched):hover {
+  margin: 8px 16px;
+  border-radius: 8px;
+}
+
+div.row .small {
+  font-size: 12px;
+  color: rgba(0, 0, 0, .54);
+}
+
+div.row > .description {
+  flex: 1;
+  margin: 0 16px;
+}
+
+div.row > div.amount {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+div.row > div.amount.debito {
+  color: #B71C1C;
+}
+
+div.row > div.amount.credito {
+  color: #1B5E20;
+}

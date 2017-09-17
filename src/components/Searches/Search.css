@@ -1,0 +1,36 @@
+.searches {
+  margin: 0 16px;
+}
+
+.search-filter {
+  background-color: rgb(209, 0, 93);
+  color: white;
+
+  box-shadow: 0 2px 8px 0px rgba(0, 0, 0, .32);
+
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+
+.sf-stats {
+  display: flex;
+  justify-content: center;
+}
+
+.sf-title {
+  font-size: 16px;
+  margin: 0 0 8px 0;
+  padding: 0 0 4px 0;
+  border-bottom: solid 1px rgba(255, 255, 255, .32);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sf-title > a {
+  color: white;
+}
+
+.sf-stats > div { margin-right: 8px; }
+.sf-stats > div:last-child { margin-right: 0; }

@@ -1,0 +1,13 @@
+div.upload-button {
+  position: relative;
+
+}
+div.upload-button > input[name="file"] {
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0px;
+  height: 0px;
+  visibility: hidden;
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans:400,700');
+@import url('https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Droid Sans', sans-serif;
+
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, .87);
+
+  background-color: #fafafa;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
